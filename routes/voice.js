@@ -85,6 +85,7 @@ exports.transcription = function(request, response) {
     var responseId = request.params.responseId;
     var questionIndex = request.params.questionIndex;
     var transcript = request.body.TranscriptionText;
+    console.log('transcript..............');
 
     console.log(transcript);
     SurveyResponse.findById(responseId, function(err, surveyResponse) {
