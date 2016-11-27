@@ -15,7 +15,7 @@
     "express",
     "survey"
   ],
-  "author": "Kevin Whinnery",
+  "author": "Youngbok Yoon",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TwilioDevEd/survey-node/issues"
